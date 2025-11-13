@@ -1,0 +1,45 @@
+.basic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:  25vh;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 20px;
+}
+.buttons-row {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+.btn {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgba(0, 0, 255, 0.432);
+    border-radius: 60%;
+    border-width: 11px;
+    border-color: rgba(0, 0, 0, 0.452);
+    transition: all 0.05s ease;
+}
+.btn:hover {
+    transform: scale(1.075) ;
+    background-color: rgba(0, 255, 170, 0.329);
+  
+
+}
+.textik {
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.btn:active {
+   transform: scale(0.90) ;
+}
